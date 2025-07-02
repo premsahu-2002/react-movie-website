@@ -1,0 +1,53 @@
+.movie {
+   padding: 1rem;
+   background: ghostwhite;
+   border-radius: 10px;
+   box-shadow: 0 0 1px grey;
+   display: flex;
+   gap: 1rem;
+}
+
+.image {
+   width: 100%;
+   max-width: 190px;
+
+   img{
+      width: 100%;
+   }
+}
+
+.details {
+   display: flex;
+   flex-direction: column;
+   gap: .5rem;
+
+   p{
+      color: rgb(80, 80, 80);
+      letter-spacing: .7px;
+   }
+
+}
+
+hr {
+   margin: .5rem 0;
+   opacity: .3;
+   width: 40%;
+}
+
+.btn {
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+   margin-bottom: .5rem;
+}
+
+.genre {
+   text-transform: capitalize;
+   color: olive;
+}
+
+@media (width <= 640px) {
+   .btn {
+      gap: 1rem;
+   }
+}

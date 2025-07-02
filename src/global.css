@@ -1,0 +1,36 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Inter';
+}
+
+a {
+   text-decoration: none;
+   color: black;
+   &:active {
+      color: black;
+      opacity: 0.6;
+   }
+}
+
+@media (width <= 640px) {
+   .watch-list {
+      overflow: hidden;
+      display: none;
+      background: greenyellow;
+   }
+   .outlet-container{
+      flex-direction: column-reverse;
+   }
+   .movie {
+      flex-direction: column;
+      gap: .5rem;
+   }
+   .seprate-movie-btn {
+      gap: 1rem;
+   }
+   .result-count {
+      display: none;
+   }
+}
