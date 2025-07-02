@@ -19,7 +19,10 @@ function MovieSeprate() {
 
    async function getMovie(signal, movieId) {
       try {
-         const res = await fetch(`http://www.omdbapi.com/?i=${movieId}&apikey=${import.meta.env.VITE_OMDB}`, { signal })
+         const res = await fetch(
+           `http://www.omdbapi.com/?i=${movieId}&apikey=1b8e90c9`,
+           { signal }
+         );
          console.log(res)
          if (!res.ok) throw new Error("Can't get movie !!")
          const data = await res.json()

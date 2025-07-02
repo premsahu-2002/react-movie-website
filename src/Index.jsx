@@ -5,7 +5,6 @@ import { Context } from './provider/global-state-provider'
 import Loader from './components/ui/LoadingSpinner'
 import { useContext, useEffect, useState } from 'react'
 import SavedMovies from './components/SavedMovies'
-import Handler from './components/ui/Handler'
 
 
 function Index() {
