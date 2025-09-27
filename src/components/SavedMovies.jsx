@@ -17,7 +17,9 @@ function SavedMovies({movieId}) {
    async function loadMovie(){
       try{
          const res = await fetch(
-           `http://www.omdbapi.com/?i=${movieId}&apikey=1b8e90c9`
+           `http://www.omdbapi.com/?i=${movieId}&apikey=${
+             import.meta.env.VITE_OMDB
+           }`
          );
          if(!res.ok) throw Error('failed to load movie!!')
          const data = await res.json()

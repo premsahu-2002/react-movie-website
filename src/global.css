@@ -18,7 +18,7 @@ a {
    .watch-list {
       overflow: hidden;
       display: none;
-      background: greenyellow;
+      background: gainsboro;
    }
    .outlet-container{
       flex-direction: column-reverse;

@@ -4,7 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ErrorPage from "./pages/ErrorPage.jsx";
 import CtxProvider from "./provider/global-state-provider.jsx";
 import MovieSeprate from "./pages/MovieSeprate.jsx";
-import Index from "./Index.jsx";
+import Index from "./index.jsx";
 
 const router = createBrowserRouter([
   {
