@@ -9,4 +9,10 @@ This website is created with OMDB api .
 5.  Run devlopement server - npm run dev
 6.  If any thing goes wrong try restarting your dev server
 
+🧨 Most Important -----
+
+create .env file and add your omdb api key as 
+
+VITE_OMDB=YOUR_KEY 
+
 😊 Done ___Good to go 😊
